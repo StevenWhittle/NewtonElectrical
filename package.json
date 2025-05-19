@@ -1,6 +1,6 @@
 {
 	"name": "newton-electrical",
-	"homepage": "https://stevenwhittle.github.io/NewtonElectrical/",
+	"homepage": "https://stevenwhittle.github.io/NewtonElectrical/src",
 	"version": "1.0.4",
 	"private": true,
 	"dependencies": {
