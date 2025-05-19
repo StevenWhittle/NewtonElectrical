@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A React Portfolio Template for GitHub
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members) [![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com&style=for-the-badge&logo=X&label=Say%20thank%20you!&labelColor=black&color=black)](https://twitter.com/intent/tweet?text=Thanks%20for%20the%20awesome%20Portfolio%20Template!%20https://github.com/mshuber1981/github-react-portfolio-template&via=MikeyHuber1981)
@@ -94,3 +95,6 @@ Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-templa
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
+# NewtonElectrical
+>>>>>>> 2b2f038117bdee01c0e2d2e099b84779b7b94264
