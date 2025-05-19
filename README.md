@@ -37,7 +37,7 @@ Add your GitHub username once and all of your info will automatically be updated
    ************************************************************** 
      Add your GitHub username (string - "YourUsername") below.
    */
-   export const githubUsername = "Your GitHub username here";
+   export const githubUsername = "stevenwhittle";
    ```
 
 7. Start the development server to view the results
@@ -58,7 +58,7 @@ Add your GitHub username once and all of your info will automatically be updated
      Add your formspree endpoint below.
      https://formspree.io/
    */
-   export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+   export const formspreeUrl = "https://formspree.io/f/xovdbwre";
    ```
 
 ### Deploy
@@ -68,7 +68,7 @@ A helpful guide for Create React App deployments with GitHub Pages can be found 
 1. Update the homepage value ([package.json](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/package.json#L3) line 3)
 
    ```json
-   "homepage": "https://YourUserName.github.io/your-repo/",
+   "homepage": "https://stevenwhittle.github.io/NewtonElectrical/",
    ```
 
 2. Run the deploy command
