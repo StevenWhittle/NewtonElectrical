@@ -15,28 +15,28 @@ import { updateTitle } from "../utils";
 
 // #region component
 const Home = () => {
-  const { data: userData } = useGetUsersQuery();
+	const { data: userData } = useGetUsersQuery();
 
-  React.useEffect(() => {
-    updateTitle(`${userData.name} | Portfolio`);
-  }, [userData]);
+	React.useEffect(() => {
+		updateTitle(`${userData.name} | Portfolio`);
+	}, [userData]);
 
-  return (
-    <>
-      <Hero name={userData.name} />
-      <main>
-        <AboutMe
-          avatar_url={userData.avatar_url}
-          bio={userData.bio}
-          moreInfo={moreInfo}
-        />
-        <Skills />
-        <Projects filteredProjects={filteredProjects} />
-        <Contact />
-      </main>
-      <BackToTop />
-    </>
-  );
+	return (
+		<>
+			<Hero name={"HELLO WORLD"} />
+			<main>
+				<AboutMe
+					avatar_url={userData.avatar_url}
+					bio={userData.bio}
+					moreInfo={moreInfo}
+				/>
+				<Skills />
+				<Projects filteredProjects={filteredProjects} />
+				<Contact />
+			</main>
+			<BackToTop />
+		</>
+	);
 };
 // #endregion
 
