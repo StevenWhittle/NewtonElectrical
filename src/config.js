@@ -5,8 +5,8 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/pic2.jpeg";
+import HeroDark from "./images/pic2.jpeg";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -30,12 +30,12 @@ export const Blog = null;
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
-/* About Me
+/* About Us
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-	"I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+	"At Newton Elctrical, we’re proud to be a trusted solar energy provider serving homes and businesses across the North West. Based in [Your Location], we’re committed to delivering high-quality, affordable solar panel solutions that help our customers save money and reduce their carbon footprint. With years of experience in the renewable energy industry, our expert team provides tailored solar installations, exceptional customer service, and reliable aftercare—all backed by local knowledge and a passion for sustainability. Whether you’re looking to cut energy bills or invest in green technology, we’re here to guide you every step of the way. Choose Newton Electrical for solar power that’s efficient, eco-friendly, and built to last.";
 
 /* Skills
  ************************************************************** 
