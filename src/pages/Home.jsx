@@ -23,7 +23,7 @@ const Home = () => {
 
 	return (
 		<>
-			<Hero name={"HELLO WORLD 123"} />
+			<Hero name={"HELLO WORLD 12jjjj3"} />
 			<main>
 				<AboutMe
 					avatar_url={userData.avatar_url}
