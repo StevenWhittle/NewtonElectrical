@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import { Element } from "react-scroll";
 import { Col, Container, Row } from "react-bootstrap";
 import Title from "./Title";
+import newtonpeeps from "../images/newtonPeeps.jpg";
 
 // #region styled-components
 const StyledAboutMe = styled.section`
@@ -43,7 +44,7 @@ const AboutMe = ({ bio, moreInfo }) => {
 						</Col>
 						<Col className="d-none d-md-block text-center">
 							<img
-								src="../images/newtonPeeps.jpg"
+								src={newtonpeeps}
 								alt="Newton Electrical staff"
 								loading="lazy"
 								className="mx-auto rounded-circle border border-primary-subtle"

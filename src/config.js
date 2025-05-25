@@ -9,7 +9,7 @@ import HeroLight from "./images/pic2.jpeg";
 import HeroDark from "./images/pic2.jpeg";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo from "./images/newtonLogo.png";
 
 /* START HERE
  **************************************************************

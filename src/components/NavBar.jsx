@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 // Router
 import { Link, useLocation } from "react-router-dom";
 // Images
-import defaultLogo from "../images/defaultNavLogo.svg";
+import defaultLogo from "../images/newtonLogo.png";
 // Components
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Nav, Navbar } from "react-bootstrap";
@@ -72,13 +72,7 @@ const NavBar = ({ Logo = defaultLogo, callBack, closeDelay = 125 }) => {
 			>
 				<Container>
 					<Navbar.Brand>
-						<img
-							alt="Logo"
-							src={Logo === null ? defaultLogo : Logo}
-							width="35"
-							height="35"
-							className="rounded-circle logo-img"
-						/>
+						<img alt="Logo" src={Logo === null ? defaultLogo : Logo} />
 					</Navbar.Brand>
 					<Navbar.Toggle
 						aria-controls="responsive-navbar-nav"

@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // Icons
 import { Icon } from "@iconify/react";
 // Images
-import Logo from "../images/logo.svg";
+import Logo from "../images/newtonLogo.png";
 import { Light, Dark } from "../config";
 // Components
 import { useErrorBoundary } from "react-error-boundary";
@@ -109,6 +109,13 @@ const Hero = ({ name }) => {
 						<h1 className="mb-3 display-3 title">
 							{name === null ? "null" : name}
 						</h1>
+						<p className="lead mb-4">
+							"Welcome to Newton Electrical, your trusted partner for
+							high-quality solar panel installations across the UK. As energy
+							costs rise and environmental concerns grow, more homeowners and
+							businesses are turning to solar power for a sustainable,
+							cost-effective energy solution.
+						</p>{" "}
 					</Col>
 				</Row>
 				<Row className="align-items-end down-container">

@@ -4,7 +4,7 @@ import styled, { keyframes } from "styled-components";
 // Components
 import { Container } from "react-bootstrap";
 // Images
-import Logo from "../images/logo.svg";
+import Logo from "../images/newtonLogo.png";
 // Utils
 import { updateTitle } from "../utils";
 
@@ -19,50 +19,50 @@ const Spin = keyframes`
 `;
 
 const StyledNotFound = styled.main`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 2 * var(--nav-height) - 1rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100vh - 2 * var(--nav-height) - 1rem);
 
-  span {
-    font-size: 5rem;
-  }
+	span {
+		font-size: 5rem;
+	}
 
-  p {
-    font-size: 2rem;
-  }
+	p {
+		font-size: 2rem;
+	}
 
-  .logo-img {
-    width: 10rem;
-  }
+	.logo-img {
+		width: 10rem;
+	}
 
-  @media (prefers-reduced-motion: no-preference) {
-    img {
-      animation: ${Spin} infinite 20s linear;
-    }
-  }
+	@media (prefers-reduced-motion: no-preference) {
+		img {
+			animation: ${Spin} infinite 20s linear;
+		}
+	}
 `;
 // #endregion
 
 // #region component
 const NotFound = () => {
-  React.useEffect(() => {
-    updateTitle("Not found...");
-  }, []);
+	React.useEffect(() => {
+		updateTitle("Not found...");
+	}, []);
 
-  return (
-    <>
-      <StyledNotFound>
-        <Container className="d-flex justify-content-center">
-          <span>4</span>
-          <img src={Logo} alt="React Logo" className="logo-img" />
-          <span>4</span>
-        </Container>
-        <p className="text-center">Sorry, page not found...</p>
-      </StyledNotFound>
-    </>
-  );
+	return (
+		<>
+			<StyledNotFound>
+				<Container className="d-flex justify-content-center">
+					<span>4</span>
+					<img src={Logo} alt="React Logo" className="logo-img" />
+					<span>4</span>
+				</Container>
+				<p className="text-center">Sorry, page not found...</p>
+			</StyledNotFound>
+		</>
+	);
 };
 // #endregion
 
