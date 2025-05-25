@@ -1,10 +1,26 @@
 {
   "files": {
     "main.css": "/NewtonElectrical/static/css/main.b291393a.css",
-    "main.js": "/NewtonElectrical/static/js/main.35345f00.js",
-    "static/media/one.jpeg": "/NewtonElectrical/static/media/one.83cef0bfc6430e1a6084.jpeg",
+    "main.js": "/NewtonElectrical/static/js/main.c6c98767.js",
     "static/media/pic2.jpeg": "/NewtonElectrical/static/media/pic2.18c4603083dd61b2bb39.jpeg",
+    "static/media/thirteen.jpeg": "/NewtonElectrical/static/media/thirteen.97df9f91c96b6ff477d0.jpeg",
+    "static/media/fifteen.jpeg": "/NewtonElectrical/static/media/fifteen.c81193442ad40124e568.jpeg",
+    "static/media/seventeen.jpeg": "/NewtonElectrical/static/media/seventeen.8fb15177d23b5de2554c.jpeg",
+    "static/media/eight.jpeg": "/NewtonElectrical/static/media/eight.4678debdffe01f98d78b.jpeg",
+    "static/media/sixteen.jpeg": "/NewtonElectrical/static/media/sixteen.3e16866f58ebbb256c17.jpeg",
+    "static/media/six.jpeg": "/NewtonElectrical/static/media/six.207cc794c2575da02bde.jpeg",
+    "static/media/twelve.jpeg": "/NewtonElectrical/static/media/twelve.59dfe48e6b467729cb72.jpeg",
+    "static/media/four.jpeg": "/NewtonElectrical/static/media/four.c9f73f37a2d37ec6a532.jpeg",
+    "static/media/ten.jpeg": "/NewtonElectrical/static/media/ten.842dd51cd34f23a2343b.jpeg",
+    "static/media/three.jpeg": "/NewtonElectrical/static/media/three.3eafd5dc846d0f5dd60b.jpeg",
+    "static/media/fourteen.jpeg": "/NewtonElectrical/static/media/fourteen.265f0640dc6d4125c298.jpeg",
+    "static/media/one.jpeg": "/NewtonElectrical/static/media/one.7140303678cc9a687362.jpeg",
+    "static/media/eleven.jpeg": "/NewtonElectrical/static/media/eleven.a43d62c9a4e497699c32.jpeg",
     "static/media/newtonPeeps.jpg": "/NewtonElectrical/static/media/newtonPeeps.2a61aa0fd8707f5af807.jpg",
+    "static/media/two.jpeg": "/NewtonElectrical/static/media/two.0802e019fecb58ad8d75.jpeg",
+    "static/media/seven.jpeg": "/NewtonElectrical/static/media/seven.a7bb97d73dd758779e9d.jpeg",
+    "static/media/five.jpeg": "/NewtonElectrical/static/media/five.25cc93a7b5022b9c894a.jpeg",
+    "static/media/nine.jpeg": "/NewtonElectrical/static/media/nine.25c065f311e8f6e67ba7.jpeg",
     "service-worker.js": "/NewtonElectrical/service-worker.js",
     "static/media/lg.svg?io9a6k": "/NewtonElectrical/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/newtonLogo.png": "/NewtonElectrical/static/media/newtonLogo.886506e87945aeb59bc4.png",
@@ -14,10 +30,10 @@
     "static/media/lg.woff2?io9a6k": "/NewtonElectrical/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/NewtonElectrical/index.html",
     "main.b291393a.css.map": "/NewtonElectrical/static/css/main.b291393a.css.map",
-    "main.35345f00.js.map": "/NewtonElectrical/static/js/main.35345f00.js.map"
+    "main.c6c98767.js.map": "/NewtonElectrical/static/js/main.c6c98767.js.map"
   },
   "entrypoints": [
     "static/css/main.b291393a.css",
-    "static/js/main.35345f00.js"
+    "static/js/main.c6c98767.js"
   ]
 }
