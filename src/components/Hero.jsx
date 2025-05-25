@@ -115,7 +115,7 @@ const Hero = ({ name }) => {
 							costs rise and environmental concerns grow, more homeowners and
 							businesses are turning to solar power for a sustainable,
 							cost-effective energy solution.
-						</p>{" "}
+						</p>
 					</Col>
 				</Row>
 				<Row className="align-items-end down-container">

@@ -23,7 +23,6 @@ const navLinks = {
 		{ id: "1T", name: "Home", to: "Home" },
 		{ id: "2T", name: "About", to: "About" },
 		{ id: "3T", name: "Skills", to: "Skills" },
-		{ id: "4T", name: "Projects", to: "Projects" },
 		{ id: "5T", name: "Contact", to: "Contact" },
 	],
 };
@@ -122,13 +121,13 @@ const NavBar = ({ Logo = defaultLogo, callBack, closeDelay = 125 }) => {
 										);
 								  })}
 						</Nav>
-						<Nav>
+						{/* <Nav>
 							<ThemeToggle
 								closeDelay={closeDelay}
 								setExpanded={setisExpanded}
 								setTheme={callBack}
 							/>
-						</Nav>
+						</Nav> */}
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>

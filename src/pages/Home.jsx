@@ -24,7 +24,7 @@ const Home = () => {
 	return (
 		<>
 			<Hero name={"We Are Newton Electric"} />
-			
+
 			<main>
 				<AboutMe
 					avatar_url={userData.avatar_url}
@@ -32,7 +32,6 @@ const Home = () => {
 					moreInfo={moreInfo}
 				/>
 				<Skills />
-				<Projects filteredProjects={filteredProjects} />
 				<Contact />
 			</main>
 			<BackToTop />
